@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/vroland/dev/misc/thinkpad-keyboard/thinkpad-keyboard/thinkpad-keyboard.sch</source>
+    <date>Wed May 13 22:01:43 2020</date>
+    <tool>Eeschema 5.1.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>thinkpad-keyboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC25D22</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBE2422</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBE086F</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8MHz</value>
+      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBDC364</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AVR-ISP-6</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE19D49</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>conn-x220-kb</value>
+      <footprint>tpk_parts:AA01B-S040VA1</footprint>
+      <datasheet>DOCUMENTATION</datasheet>
+      <libsource lib="tpk_parts" part="conn-x220-kb" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBADE9C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x20_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC61EE2</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32A-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-8155-8-bit-microcontroller-avr-atmega32a_datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32A-AU" description="16MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, JTAG, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBB18D5</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC2967D</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC41002</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4B3EE</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4E42C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16L-8AU">
+      <aliases>
+        <alias>ATmega16-16AU</alias>
+        <alias>ATmega16A-AU</alias>
+        <alias>ATmega32L-8AU</alias>
+        <alias>ATmega32-16AU</alias>
+        <alias>ATmega32A-AU</alias>
+      </aliases>
+      <description>8MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/doc2466.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16L-8AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB5" type="BiDi"/>
+        <pin num="2" name="PB6" type="BiDi"/>
+        <pin num="3" name="PB7" type="BiDi"/>
+        <pin num="4" name="~RESET" type="input"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="XTAL2" type="output"/>
+        <pin num="8" name="XTAL1" type="input"/>
+        <pin num="9" name="PD0" type="BiDi"/>
+        <pin num="10" name="PD1" type="BiDi"/>
+        <pin num="11" name="PD2" type="BiDi"/>
+        <pin num="12" name="PD3" type="BiDi"/>
+        <pin num="13" name="PD4" type="BiDi"/>
+        <pin num="14" name="PD5" type="BiDi"/>
+        <pin num="15" name="PD6" type="BiDi"/>
+        <pin num="16" name="PD7" type="BiDi"/>
+        <pin num="17" name="VCC" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="PC0" type="BiDi"/>
+        <pin num="20" name="PC1" type="BiDi"/>
+        <pin num="21" name="PC2" type="BiDi"/>
+        <pin num="22" name="PC3" type="BiDi"/>
+        <pin num="23" name="PC4" type="BiDi"/>
+        <pin num="24" name="PC5" type="BiDi"/>
+        <pin num="25" name="PC6" type="BiDi"/>
+        <pin num="26" name="PC7" type="BiDi"/>
+        <pin num="27" name="AVCC" type="power_in"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="AREF" type="passive"/>
+        <pin num="30" name="PA7" type="BiDi"/>
+        <pin num="31" name="PA6" type="BiDi"/>
+        <pin num="32" name="PA5" type="BiDi"/>
+        <pin num="33" name="PA4" type="BiDi"/>
+        <pin num="34" name="PA3" type="BiDi"/>
+        <pin num="35" name="PA2" type="BiDi"/>
+        <pin num="36" name="PA1" type="BiDi"/>
+        <pin num="37" name="PA0" type="BiDi"/>
+        <pin num="38" name="VCC" type="passive"/>
+        <pin num="39" name="GND" type="passive"/>
+        <pin num="40" name="PB0" type="BiDi"/>
+        <pin num="41" name="PB1" type="BiDi"/>
+        <pin num="42" name="PB2" type="BiDi"/>
+        <pin num="43" name="PB3" type="BiDi"/>
+        <pin num="44" name="PB4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="tpk_parts" part="conn-x220-kb">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">conn-x220-kb</field>
+        <field name="Footprint">tpk_parts:AA01B-S040VA1</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="HOTKEY" type="passive"/>
+        <pin num="2" name="DRV4" type="passive"/>
+        <pin num="3" name="SENSE5" type="passive"/>
+        <pin num="4" name="DRV5" type="passive"/>
+        <pin num="5" name="SENSE0" type="passive"/>
+        <pin num="6" name="DRV8" type="passive"/>
+        <pin num="7" name="SENSE3" type="passive"/>
+        <pin num="8" name="DRV6" type="passive"/>
+        <pin num="9" name="SENSE2" type="passive"/>
+        <pin num="10" name="DRV3" type="passive"/>
+        <pin num="11" name="SENSE4" type="passive"/>
+        <pin num="12" name="DRV7" type="passive"/>
+        <pin num="13" name="SENSE1" type="passive"/>
+        <pin num="14" name="DRV2" type="passive"/>
+        <pin num="15" name="SENSE6" type="passive"/>
+        <pin num="16" name="DRV10" type="passive"/>
+        <pin num="17" name="SENSE7" type="passive"/>
+        <pin num="18" name="DRV1" type="passive"/>
+        <pin num="19" name="PWRSWITCH" type="passive"/>
+        <pin num="20" name="DRV9" type="passive"/>
+        <pin num="21" name="LEDCPSLOCK" type="passive"/>
+        <pin num="22" name="DRV0" type="passive"/>
+        <pin num="23" name="LEDPWR" type="passive"/>
+        <pin num="24" name="DRV11" type="passive"/>
+        <pin num="25" name="KBDID0" type="passive"/>
+        <pin num="26" name="DRV14" type="passive"/>
+        <pin num="27" name="KBDID1" type="passive"/>
+        <pin num="28" name="DRV12" type="passive"/>
+        <pin num="29" name="KBDID2" type="passive"/>
+        <pin num="30" name="DRV15" type="passive"/>
+        <pin num="31" name="GND" type="power_in"/>
+        <pin num="32" name="DRV13" type="passive"/>
+        <pin num="33" name="LED_MUTE" type="passive"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="VCC3M_TP" type="power_in"/>
+        <pin num="36" name="LEDMICMUTE_R" type="passive"/>
+        <pin num="37" name="TP4DATA" type="output"/>
+        <pin num="38" name="VCC5B_TP" type="power_in"/>
+        <pin num="39" name="TP4CLK" type="output"/>
+        <pin num="40" name="TP4_RESET" type="input"/>
+        <pin num="41" name="GND" type="power_in"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="GND" type="power_in"/>
+        <pin num="44" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>/usr/share/kicad/library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="tpk_parts">
+      <uri>/home/vroland/dev/misc/thinkpad-keyboard/thinkpad-keyboard/tpk_parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/LED_SINK">
+      <node ref="J3" pin="35"/>
+      <node ref="U2" pin="35"/>
+    </net>
+    <net code="2" name="/conn17">
+      <node ref="U2" pin="33"/>
+      <node ref="J3" pin="33"/>
+    </net>
+    <net code="3" name="/conn15">
+      <node ref="J3" pin="29"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="4" name="/conn14">
+      <node ref="J3" pin="27"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="5" name="/conn13">
+      <node ref="U2" pin="25"/>
+      <node ref="J3" pin="25"/>
+    </net>
+    <net code="6" name="/conn12">
+      <node ref="J3" pin="23"/>
+      <node ref="U2" pin="23"/>
+    </net>
+    <net code="7" name="/conn35">
+      <node ref="U1" pin="42"/>
+      <node ref="J3" pin="30"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="8" name="/conn34">
+      <node ref="U2" pin="28"/>
+      <node ref="U1" pin="11"/>
+      <node ref="J3" pin="28"/>
+    </net>
+    <net code="9" name="/conn33">
+      <node ref="U1" pin="12"/>
+      <node ref="J3" pin="26"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="10" name="/conn32">
+      <node ref="U1" pin="13"/>
+      <node ref="J3" pin="24"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="11" name="/conn31">
+      <node ref="U1" pin="14"/>
+      <node ref="J3" pin="22"/>
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="12" name="/conn11">
+      <node ref="U2" pin="21"/>
+      <node ref="J3" pin="21"/>
+    </net>
+    <net code="13" name="/conn9">
+      <node ref="U2" pin="17"/>
+      <node ref="J3" pin="17"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="14" name="/TP_DATA">
+      <node ref="U1" pin="9"/>
+      <node ref="J3" pin="37"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="15" name="/TP_CLK">
+      <node ref="U1" pin="40"/>
+      <node ref="J3" pin="39"/>
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="16" name="/conn5">
+      <node ref="J3" pin="9"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="17" name="/conn8">
+      <node ref="J3" pin="15"/>
+      <node ref="U1" pin="36"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="18" name="/conn7">
+      <node ref="U1" pin="35"/>
+      <node ref="J3" pin="13"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="19" name="/conn6">
+      <node ref="U2" pin="11"/>
+      <node ref="J3" pin="11"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="20" name="/conn2">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="33"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="21" name="/conn3">
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="32"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="22" name="/conn4">
+      <node ref="J3" pin="7"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U1" pin="31"/>
+    </net>
+    <net code="23" name="/conn21">
+      <node ref="U1" pin="26"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="24" name="/PWR_SWITCH">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="19"/>
+      <node ref="J3" pin="19"/>
+    </net>
+    <net code="25" name="/conn22">
+      <node ref="U1" pin="25"/>
+      <node ref="U2" pin="4"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="26" name="/TP_RESET">
+      <node ref="U1" pin="41"/>
+      <node ref="U2" pin="40"/>
+      <node ref="J3" pin="40"/>
+    </net>
+    <net code="27" name="+5V">
+      <node ref="U1" pin="27"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="29"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U1" pin="38"/>
+      <node ref="U2" pin="38"/>
+      <node ref="J3" pin="38"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="28" name="GND">
+      <node ref="U2" pin="31"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="34"/>
+      <node ref="J1" pin="6"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J3" pin="36"/>
+      <node ref="J3" pin="34"/>
+      <node ref="J3" pin="31"/>
+      <node ref="U2" pin="41"/>
+      <node ref="U1" pin="28"/>
+      <node ref="U1" pin="39"/>
+      <node ref="U2" pin="44"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="U2" pin="36"/>
+      <node ref="J2" pin="6"/>
+      <node ref="U2" pin="43"/>
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="29" name="/conn36">
+      <node ref="J3" pin="32"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="30" name="/conn23">
+      <node ref="J3" pin="6"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="31" name="/conn24">
+      <node ref="J3" pin="8"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="32" name="/conn25">
+      <node ref="J3" pin="10"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="33" name="/conn26">
+      <node ref="J3" pin="12"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="34" name="/conn27">
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="20"/>
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="35" name="/conn28">
+      <node ref="U1" pin="19"/>
+      <node ref="J3" pin="16"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="36" name="/conn29">
+      <node ref="U2" pin="18"/>
+      <node ref="U1" pin="16"/>
+      <node ref="J3" pin="18"/>
+    </net>
+    <net code="37" name="/conn30">
+      <node ref="J3" pin="20"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="38" name="/HOTKEY">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="39" name="/MOSI">
+      <node ref="J1" pin="4"/>
+      <node ref="J2" pin="4"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="40" name="/SCK">
+      <node ref="J2" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="41" name="/~SS">
+      <node ref="U1" pin="44"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="42" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="43" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="45" name="/MISO">
+      <node ref="U1" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="3"/>
+    </net>
+  </nets>
+</export>

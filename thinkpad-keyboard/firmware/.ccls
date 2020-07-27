@@ -1,0 +1,32 @@
+clang
+
+%c -std=c11
+%cpp -std=c++11
+
+-I/home/vroland/dev/misc/thinkpad-keyboard/firmware/include
+-I/home/vroland/dev/misc/thinkpad-keyboard/firmware/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/cores/MightyCore
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/variants/standard
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/AVR_examples/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/EEPROM/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/Ethernet/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/Optiboot_flasher/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/SD/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/SPI/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/SPI1/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/Servo/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/SoftwareSerial/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/Timer/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/Wire/src
+-I/home/vroland/.platformio/packages/framework-arduino-avr-mightycore/libraries/Wire1/src
+-I/home/vroland/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include-fixed
+-I/home/vroland/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/5.4.0/include
+-I/home/vroland/.platformio/packages/toolchain-atmelavr/avr/include
+-I/home/vroland/.platformio/packages/tool-unity
+
+-DPLATFORMIO=40303
+-DARDUINO_AVR_ATmega32
+-DF_CPU=16000000L
+-DARDUINO_ARCH_AVR
+-DARDUINO=10808
+-D__AVR_ATmega32__
