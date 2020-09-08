@@ -16,6 +16,20 @@ Features
  * Get Trackpoint events via SPI
  * High scan frequency
  * Low power consumption
+ * Although the TrackPoint nominally uses 5V, according to my tests the board runs fine on 3.3V.
+   This allows to talk directly to a 3.3V-based microcontroller like the ESP32.
+
+Getting Started
+---------------
+
+Although the firmware is based on the arduino firmware, the Atmega32 does not usually come with the Arduino bootloader flashed.
+Thus, you need an AVR ISP-Compatible programmer.
+
+1. Prerequisites: Install platformio
+2. Compile the firmware: `pio run -t build`
+3. Burn the fuses to use the external oscillator: `pio run -t fuses`
+4. Upload: `pio run -t upload`
+5. Enjoy!
 
 Future
 ------
