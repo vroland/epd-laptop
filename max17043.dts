@@ -1,0 +1,28 @@
+// Enable the i2s interface
+/dts-v1/;
+/plugin/;
+
+/ {
+		compatible = "brcm,bcm2835";
+
+		fragment@0 {
+				target = <&i2c_arm>;
+				__overlay__ {
+						status = "okay";
+						// only one value in address cell
+						#address-cells = <1>;
+						#size-cells = <0>;
+						battery-fuel-gauge@36 {
+								#address-cells = <1>;
+								#size-cells = <0>;
+								compatible = "maxim,max17040";
+								reg = <0x36>;
+								maxim,alert-low-soc-level = <10>;
+//								interrupt-parent = <&gpio7>;
+//								interrupts = <2 IRQ_TYPE_EDGE_FALLING>;
+//								wakeup-source;
+
+						};
+				};
+		};
+};
